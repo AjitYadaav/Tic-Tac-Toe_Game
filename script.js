@@ -63,6 +63,10 @@ const showWinner =(winner) =>{
     msg.innerText = `Congratulation 🎉, Winner is ${winner}`;
     // msgContainer.classList.remove("hide");
     disableBoxes();
+    setTimeout(function myfunction(){
+        alert(`Congratulation 🎉, Winner is ${winner}`);
+    },1000);
+    
 }
 
 
